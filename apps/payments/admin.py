@@ -13,6 +13,6 @@ class ScheduleAdmin(admin.ModelAdmin):
 
 @admin.register(Rate)
 class RateAdmin(admin.ModelAdmin):
-    list_display = ('day', 'schedule', 'price_by_hour', 'quantity_hours', 'total_price')
-    search_fields = ['day__code', 'price_by_hour', 'quantity_hours', 'total_price']
+    list_display = ('day', 'schedule', 'price_by_hour')
+    search_fields = ['day__code', 'price_by_hour']
     raw_id_fields = ["day", "schedule"]

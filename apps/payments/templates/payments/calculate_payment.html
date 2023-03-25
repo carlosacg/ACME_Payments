@@ -1,15 +1,47 @@
 {% load i18n %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}ACME Payments{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main2.min.css' %}">
+    <script src="{% static 'js2/jquery-3.5.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js2/popper.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js2/bootstrap/bootstrap.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js2/tools.js' %}"></script>
+</head>
 
-{{ form.media }}
-<form method="POST" enctype="multipart/form-data">
-    {% csrf_token %}
-    <div class="row">
-        <div class="col-12">
-            {% trans 'Please select upload the file with the information' %}
+<body>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="row card w-50 mx-auto mt-5">
+            <div class="col-12 mb-5">
+                <div class="row w-100 mx-auto mt-3">
+                    <p class="text-center">{% trans 'Please select the file with the information' %}</p>
+                    {{ form.file }}
+                 </div>
+            </div>
+            <div class="col-12">
+                <div class="row w-50 mx-auto mb-3">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </div>
         </div>
-        <div class="col-12">
-            {{ form.file }}
+    </form>
+    {% if messages %}
+        <div id="toast_container" class="float-toast-container z-index-9999">
+            {% for message in messages %}
+                <div class="float-toast d-flex align-items-center alert-dismissible alert alert-success alert" role="alert">
+                    {% autoescape off %}
+                        {{ message }}
+                    {% endautoescape %}
+                </div>
+            {% endfor %}
         </div>
-        <button id="save_leg" type="submit"><i class="icon-save me-1"></i> {% trans 'Submit' %}</button>
-    </div>
-</form>
+    {% endif %}
+</body>
+</html>
