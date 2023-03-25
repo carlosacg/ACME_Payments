@@ -50,3 +50,7 @@ An application was developed using Python-Django and DjangoRESTFramework.
 
 The following models were developed
 
+![image](https://user-images.githubusercontent.com/24283414/227744393-61822c60-ccda-461e-8d86-e7ff37064b13.png)
+
+
+
