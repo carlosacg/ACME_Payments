@@ -1,0 +1,234 @@
+[
+    {
+        "model": "payments.rate",
+        "pk": 1,
+        "fields": {
+            "day": 1,
+            "schedule": 1,
+            "price_by_hour": 25.0,
+            "quantity_hours": 9,
+            "total_price": 225.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 2,
+        "fields": {
+            "day": 1,
+            "schedule": 2,
+            "price_by_hour": 15.0,
+            "quantity_hours": 9,
+            "total_price": 135.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 3,
+        "fields": {
+            "day": 1,
+            "schedule": 3,
+            "price_by_hour": 20.0,
+            "quantity_hours": 6,
+            "total_price": 120.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 4,
+        "fields": {
+            "day": 2,
+            "schedule": 1,
+            "price_by_hour": 25.0,
+            "quantity_hours": 9,
+            "total_price": 225.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 5,
+        "fields": {
+            "day": 2,
+            "schedule": 2,
+            "price_by_hour": 15.0,
+            "quantity_hours": 9,
+            "total_price": 135.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 6,
+        "fields": {
+            "day": 2,
+            "schedule": 3,
+            "price_by_hour": 20.0,
+            "quantity_hours": 6,
+            "total_price": 120.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 7,
+        "fields": {
+            "day": 3,
+            "schedule": 1,
+            "price_by_hour": 25.0,
+            "quantity_hours": 9,
+            "total_price": 225.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 8,
+        "fields": {
+            "day": 3,
+            "schedule": 2,
+            "price_by_hour": 15.0,
+            "quantity_hours": 9,
+            "total_price": 135.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 9,
+        "fields": {
+            "day": 3,
+            "schedule": 3,
+            "price_by_hour": 20.0,
+            "quantity_hours": 6,
+            "total_price": 120.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 10,
+        "fields": {
+            "day": 4,
+            "schedule": 1,
+            "price_by_hour": 25.0,
+            "quantity_hours": 9,
+            "total_price": 225.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 11,
+        "fields": {
+            "day": 4,
+            "schedule": 2,
+            "price_by_hour": 15.0,
+            "quantity_hours": 9,
+            "total_price": 135.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 12,
+        "fields": {
+            "day": 4,
+            "schedule": 3,
+            "price_by_hour": 20.0,
+            "quantity_hours": 6,
+            "total_price": 120.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 13,
+        "fields": {
+            "day": 5,
+            "schedule": 1,
+            "price_by_hour": 25.0,
+            "quantity_hours": 9,
+            "total_price": 225.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 14,
+        "fields": {
+            "day": 5,
+            "schedule": 2,
+            "price_by_hour": 15.0,
+            "quantity_hours": 9,
+            "total_price": 135.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 15,
+        "fields": {
+            "day": 5,
+            "schedule": 3,
+            "price_by_hour": 20.0,
+            "quantity_hours": 6,
+            "total_price": 120.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 16,
+        "fields": {
+            "day": 6,
+            "schedule": 1,
+            "price_by_hour": 30.0,
+            "quantity_hours": 9,
+            "total_price": 270.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 17,
+        "fields": {
+            "day": 6,
+            "schedule": 2,
+            "price_by_hour": 20.0,
+            "quantity_hours": 9,
+            "total_price": 180.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 18,
+        "fields": {
+            "day": 6,
+            "schedule": 3,
+            "price_by_hour": 25.0,
+            "quantity_hours": 6,
+            "total_price": 150.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 19,
+        "fields": {
+            "day": 7,
+            "schedule": 1,
+            "price_by_hour": 30.0,
+            "quantity_hours": 9,
+            "total_price": 270.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 20,
+        "fields": {
+            "day": 7,
+            "schedule": 2,
+            "price_by_hour": 20.0,
+            "quantity_hours": 9,
+            "total_price": 180.0
+        }
+    },
+    {
+        "model": "payments.rate",
+        "pk": 21,
+        "fields": {
+            "day": 7,
+            "schedule": 3,
+            "price_by_hour": 25.0,
+            "quantity_hours": 6,
+            "total_price": 150.0
+        }
+    }
+    ]
+    

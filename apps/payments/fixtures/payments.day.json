@@ -1,0 +1,59 @@
+[
+    {
+        "model": "payments.day",
+        "pk": 1,
+        "fields": {
+            "code": "MO",
+            "name": "Monday"
+        }
+    },
+    {
+        "model": "payments.day",
+        "pk": 2,
+        "fields": {
+            "code": "TU",
+            "name": "Tuesday"
+        }
+    },
+    {
+        "model": "payments.day",
+        "pk": 3,
+        "fields": {
+            "code": "WE",
+            "name": "Wednesday"
+        }
+    },
+    {
+        "model": "payments.day",
+        "pk": 4,
+        "fields": {
+            "code": "TH",
+            "name": "Thursday"
+        }
+    },
+    {
+        "model": "payments.day",
+        "pk": 5,
+        "fields": {
+            "code": "FR",
+            "name": "Friday"
+        }
+    },
+    {
+        "model": "payments.day",
+        "pk": 6,
+        "fields": {
+            "code": "SA",
+            "name": "Saturday"
+        }
+    },
+    {
+        "model": "payments.day",
+        "pk": 7,
+        "fields": {
+            "code": "SU",
+            "name": "Sunday"
+        }
+    }
+    ]
+    

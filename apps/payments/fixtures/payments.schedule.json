@@ -1,0 +1,27 @@
+[
+    {
+        "model": "payments.schedule",
+        "pk": 1,
+        "fields": {
+            "start_time": "00:01:00",
+            "end_time": "09:00:00"
+        }
+    },
+    {
+        "model": "payments.schedule",
+        "pk": 2,
+        "fields": {
+            "start_time": "09:01:00",
+            "end_time": "18:00:00"
+        }
+    },
+    {
+        "model": "payments.schedule",
+        "pk": 3,
+        "fields": {
+            "start_time": "18:01:00",
+            "end_time": "00:00:00"
+        }
+    }
+    ]
+    
