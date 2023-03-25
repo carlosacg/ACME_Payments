@@ -31,6 +31,7 @@ The goal of this exercise is to calculate the total that the company has to pay 
 For example:
 
 **Case 1:**
+
 INPUT
 - RENE=MO10:00-12:00,TU10:00-12:00,TH01:00-03:00,SA14:00-18:00,SU20:00-21:00
 
@@ -38,6 +39,7 @@ OUTPUT:
 - The amount to pay RENE is: 215 USD
 
 **Case 2:**
+
 INPUT
 - ASTRID=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00
 
