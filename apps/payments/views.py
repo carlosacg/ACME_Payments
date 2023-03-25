@@ -4,6 +4,7 @@ from django.urls import reverse_lazy
 from apps.payments.forms import EmployeeDataForm
 from apps.payments.fnutils import process_file
 from apps.payments.helpers import uw_add_alert
+import requests
 
 
 class CalculatePaymentRate(TemplateView):
@@ -23,7 +24,10 @@ class CalculatePaymentRate(TemplateView):
     def post(self, *args, **kwargs):
         form = EmployeeDataForm(self.request.POST, self.request.FILES)
         if form.is_valid():
-            amounts_to_pay = process_file(self.request.FILES['file'])
-            for message in amounts_to_pay:
-                uw_add_alert(self.request, message, "success")
+            data = process_file(self.request.FILES['file'])
+            response = requests.post(
+                'http://localhost:8000/payments/api', data={"employee_data": data})
+            response = response.json()
+            message = response.get('message')
+            uw_add_alert(self.request, message, "success")
         return HttpResponseRedirect(self.get_success_url())

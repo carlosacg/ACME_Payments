@@ -1,15 +1,9 @@
 from apps.payments.models import Day, Schedule, Rate
 from datetime import datetime
 
-
 def process_file(file) -> list:
     content = file.read().decode("utf-8")
-    list_content = content.split("\r\n")
-    data = []
-    for employee_data in list_content:
-        if employee_data:
-            data.append(get_amount_to_pay(employee_data))
-    return data
+    return content
 
 def get_amount_to_pay(content: str) -> str:
     """
