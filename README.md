@@ -52,6 +52,8 @@ The following models were developed
 
 ![image](https://user-images.githubusercontent.com/24283414/227744393-61822c60-ccda-461e-8d86-e7ff37064b13.png)
 
+The architecture used in this solution was Model-View-Template.
+
 # HOW TO DEPLOY 
 
 1. Clone the repository
@@ -65,7 +67,7 @@ The following models were developed
 9. Execute: docker-compose exec web python3 manage.py loaddata apps/payments/fixtures/payments.rate.json
 10. If the information was uploaded correctly, you can now use the application.
 
-# VIEW AND URLS
+# VIEWS AND URLS
 The application has two main views 
 
 1. http://localhost:8000/payments/
