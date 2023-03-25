@@ -1,6 +1,7 @@
 from django import forms
 from django.utils.translation import ugettext_lazy as _
 
+
 class EmployeeDataForm(forms.Form):
 
     input_text = forms.CharField(

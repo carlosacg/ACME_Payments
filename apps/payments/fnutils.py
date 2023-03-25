@@ -1,9 +1,11 @@
 from apps.payments.models import Day, Schedule, Rate
 from datetime import datetime
 
+
 def process_file(file) -> list:
     content = file.read().decode("utf-8")
     return content
+
 
 def get_amount_to_pay(content: str) -> str:
     """
