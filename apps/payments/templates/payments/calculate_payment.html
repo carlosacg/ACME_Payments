@@ -1,0 +1,15 @@
+{% load i18n %}
+
+{{ form.media }}
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="row">
+        <div class="col-12">
+            {% trans 'Please select upload the file with the information' %}
+        </div>
+        <div class="col-12">
+            {{ form.file }}
+        </div>
+        <button id="save_leg" type="submit"><i class="icon-save me-1"></i> {% trans 'Submit' %}</button>
+    </div>
+</form>

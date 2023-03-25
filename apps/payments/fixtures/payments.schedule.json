@@ -20,7 +20,7 @@
         "pk": 3,
         "fields": {
             "start_time": "18:01:00",
-            "end_time": "00:00:00"
+            "end_time": "23:59:59"
         }
     }
     ]
