@@ -1,5 +1,4 @@
-# ACME_Payments
-
+# Description
 The company ACME offers their employees the flexibility to work the hours they want. They will pay for the hours worked based on the day of the week and time of day, according to the following table:
 
 **Monday - Friday**
@@ -45,3 +44,9 @@ INPUT
 
 OUTPUT:
 - The amount to pay ASTRID is: 85 USD
+
+# SOLUTION 
+An application was developed using Python-Django and DjangoRESTFramework.
+
+The following models were developed
+
